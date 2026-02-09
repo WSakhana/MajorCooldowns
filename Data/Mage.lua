@@ -58,7 +58,7 @@ lib:RegisterBatch({
         duration = 90,
         category = C.BURST,
         priority = P.MEDIUM,
-        defaultEnabled = true,
+        defaultEnabled = false,
     },
     {
         key      = "MAG_TEMPORAL",
@@ -68,5 +68,6 @@ lib:RegisterBatch({
         duration = 45,
         category = C.DEFENSIVE,
         priority = P.NORMAL,
+        defaultEnabled = false,
     },
 }, lib.CooldownType.CLASS_ABILITY)

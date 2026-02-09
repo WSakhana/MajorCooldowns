@@ -68,7 +68,7 @@ lib:RegisterBatch({
         duration = 120,
         category = C.BURST,
         priority = P.HIGH,
-        defaultEnabled = true,
+        defaultEnabled = false,
     },
     {
         key      = "PAL_LOH",

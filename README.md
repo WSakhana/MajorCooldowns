@@ -42,7 +42,7 @@ A **LibStub** library for World of Warcraft (Retail) that provides a centralized
 ## Project Structure
 
 ```
-MajorCooldowns-1.0/
+MajorCooldowns/
 ├── MajorCooldowns.toc   # Addon TOC (LoadOnDemand library)
 ├── MajorCooldowns.xml   # Master XML loader (embed this in your addon)
 ├── Core.lua                  # LibStub init — creates the lib table
@@ -77,18 +77,18 @@ MajorCooldowns-1.0/
 
 ## Installation & Embedding
 
-Place the `MajorCooldowns-1.0` folder inside your addon's `Libs/` directory.
+Place the `MajorCooldowns` folder inside your addon's `Libs/` directory.
 
 In your addon's `.toc` or `.xml`:
 
 ```xml
-<Include file="Libs\MajorCooldowns-1.0\MajorCooldowns.xml"/>
+<Include file="Libs\MajorCooldowns\MajorCooldowns.xml"/>
 ```
 
 Or in your `.toc` file directly:
 
 ```toc
-Libs\MajorCooldowns-1.0\MajorCooldowns.xml
+Libs\MajorCooldowns\MajorCooldowns.xml
 ```
 
 > **Dependency:** Requires [LibStub](https://www.wowace.com/projects/libstub) to be loaded before this library.

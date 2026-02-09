@@ -58,6 +58,6 @@ lib:RegisterBatch({
         duration = 90,
         category = C.BURST,
         priority = P.MEDIUM,
-        defaultEnabled = true,
+        defaultEnabled = false,
     },
 }, lib.CooldownType.CLASS_ABILITY)

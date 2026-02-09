@@ -49,7 +49,7 @@ lib:RegisterBatch({
         duration = 75,
         category = C.UTILITY,
         priority = P.MEDIUM,
-        defaultEnabled = true,
+        defaultEnabled = false,
     },
     {
         key      = "PRI_PI",

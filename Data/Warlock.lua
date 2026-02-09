@@ -38,7 +38,7 @@ lib:RegisterBatch({
         duration = 180,
         category = C.BURST,
         priority = P.HIGH,
-        defaultEnabled = true,
+        defaultEnabled = false,
     },
     {
         key      = "WL_TYRANT",

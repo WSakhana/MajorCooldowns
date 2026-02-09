@@ -68,7 +68,7 @@ lib:RegisterBatch({
         duration = 60,
         category = C.BURST,
         priority = P.MEDIUM,
-        defaultEnabled = true,
+        defaultEnabled = false,
     },
     {
         key      = "WAR_RECK",

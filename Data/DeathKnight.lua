@@ -58,7 +58,7 @@ lib:RegisterBatch({
         duration = 90,
         category = C.BURST,
         priority = P.HIGH,
-        defaultEnabled = true,
+        defaultEnabled = false,
     },
     {
         key      = "DK_ZONE",

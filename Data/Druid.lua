@@ -78,5 +78,6 @@ lib:RegisterBatch({
         duration = 90,
         category = C.DEFENSIVE,
         priority = P.LOW,
+        defaultEnabled = false,
     },
 }, lib.CooldownType.CLASS_ABILITY)
