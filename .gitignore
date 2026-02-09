@@ -1,0 +1,30 @@
+# WoW AddOn specific
+*.bak
+*.orig
+
+# Development files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Package files
+*.zip
+*.7z
+*.rar
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Log files
+*.log
+
+# Test/validation scripts
+validate.lua
