@@ -25,3 +25,6 @@ temp/
 
 # Log files
 *.log
+
+# Test/validation scripts
+validate.lua
