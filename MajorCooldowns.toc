@@ -1,0 +1,12 @@
+## Interface: 110002
+## Title: MajorCooldowns
+## Notes: A library providing Major Spec ability cooldowns data for World of Warcraft addons
+## Author: WSakhana
+## Version: 1.0.0
+## X-Category: Library
+## X-License: MIT
+## OptionalDeps: LibStub
+
+# Library files
+libs\LibStub\LibStub.lua
+MajorCooldowns-1.0.lua
