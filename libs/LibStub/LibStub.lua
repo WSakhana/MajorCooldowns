@@ -5,7 +5,7 @@ local LIBSTUB_MAJOR, LIBSTUB_MINOR = "LibStub", 2
 
 local LibStub = _G[LIBSTUB_MAJOR]
 
--- Check to see is this version of the stub is obsolete
+-- Check to see if this version of the stub is obsolete
 if not LibStub or LibStub.minor < LIBSTUB_MINOR then
 	LibStub = LibStub or {libs = {}, minors = {} }
 	_G[LIBSTUB_MAJOR] = LibStub
